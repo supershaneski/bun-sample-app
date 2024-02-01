@@ -1,0 +1,49 @@
+.dialog {
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: #242424;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.center {
+    position: relative;
+}
+
+.list {
+    position: relative;
+}
+.list + .list {
+    margin-top: 1rem;
+}
+
+.label {
+    display: block;
+    font-size: .9rem;
+    opacity: 0.6;
+}
+.select {
+    appearance: none;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.action {
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (prefers-color-scheme: light) {
+    .dialog {
+        background-color: #ffffff;
+    }
+}
