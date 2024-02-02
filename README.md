@@ -32,13 +32,7 @@ See Bun [installation page](https://bun.sh/docs/installation) for more details.
 To clone the repository and install the dependencies
 
 ```sh
-$ git clone https://github.com/supershaneski/bun-sample-app myproject
-
-$ cd myproject
-
-$ bun install
-
-$ bun run dev
+$ bun create github.com/supershaneski/bun-sample-app myproject
 ```
 
 Open your browser to `http://localhost:5173/` to load the application page.
