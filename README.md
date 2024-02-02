@@ -35,4 +35,12 @@ To clone the repository and install the dependencies
 $ bun create github.com/supershaneski/bun-sample-app myproject
 ```
 
+To run the app
+
+```sh
+$ cd myproject
+
+$ bun dev
+```
+
 Open your browser to `http://localhost:5173/` to load the application page.
